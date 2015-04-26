@@ -22,3 +22,4 @@ mix c1      c2      = mix c2 c1
 main = do
     print $ mix Red Blue
     print $ mix Red $ mix Blue Green
+    print $ mix Red Red
